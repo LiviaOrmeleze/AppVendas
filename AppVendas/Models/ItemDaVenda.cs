@@ -4,11 +4,11 @@
     {
         public Guid ItemDaVendaId { get; set; }
 
-        /*Relacionamento com a tabela Vendas */
+        /* Relacionamento com a tabela Vendas */
         public Guid VendaId { get; set; }
         public Venda? Venda { get; set; }
 
-        /* Relacionamento com a tabela Produtos*/
+        /* Relacionamento com a tabela Produtos */
         public Guid ProdutoId { get; set; }
         public Produto? Produto { get; set; }
 
